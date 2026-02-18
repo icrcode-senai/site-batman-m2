@@ -5,13 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site do Batman</title>
     <style>
+        h1 {
+            color: blue;
+        }
+
+        body {
+            color: aliceblue;
+            background-color: black;
+        }
+
         #foto-batman-principal {
             height: 100px;
             width: 200px;
         }
+
+        .imagens-batman {
+            height: 100px;
+            width: 200px;
+            border: 2px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+
+        p {
+            color: aqua;
+        }
+
+        footer p{
+            color: rgb(233, 21, 187);
+        }
+
     </style>
 </head>
-
 
 <body>
 
@@ -21,11 +46,17 @@
 
     <main>
         <div>
-            <img src="assets/batman-1.jpg" alt="Imagem do Batman" id="foto-batman-principal">
+            <img id="foto-batman-principal" src="assets/batman-1.jpg" alt="Imagem do Batman">
+        </div>
+        <div>
+            <img class="imagens-batman" src="assets/batman-2.jpg" alt="Imagem do Batman">
+            <img class="imagens-batman" src="assets/batman-3.jpeg" alt="Imagem do Batman">
+            <img class="imagens-batman" src="assets/batman-4.jpg" alt="Imagem do Batman">
         </div>
         <div>
             <h2>O heroi mais forte.</h2>
             <p>Batman é o justiceiro da cidade.</p>
+            <p>Brabo dos morcegos.</p>
         </div>
     </main>
 
